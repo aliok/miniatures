@@ -4168,33 +4168,16 @@
        fx="6.029079"
        fy="305.00415"
        r="79.239754" />
-    <filter
-       id="filter4797"
-       inkscape:label="Black outline"
-       inkscape:menu-tooltip="Draws a black outline around"
-       inkscape:menu="ABCs"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         id="feGaussianBlur4799"
-         stdDeviation="2"
-         in="SourceAlpha"
-         result="result0" />
-      <feComposite
-         id="feComposite4801"
-         in2="result0"
-         result="result3"
-         operator="arithmetic"
-         in="SourceGraphic"
-         k2="1"
-         k3="10" />
-      <feComposite
-         id="feComposite4803"
-         in2="result3"
-         k2="1"
-         operator="in"
-         in="result3"
-         result="result4" />
-    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3778">
+      <path
+         style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#0043ff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="M 39.534433,30.302405 715.5521,27.445264 714.12353,1026.543 42.39158,1023.6858 z"
+         id="path3780"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      inkscape:document-units="mm"
@@ -4204,16 +4187,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="373.15933"
-     inkscape:cy="717.84089"
-     inkscape:current-layer="layer1"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="517.40431"
+     inkscape:cy="621.96039"
+     inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:window-width="1200"
-     inkscape:window-height="1898"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="853"
+     inkscape:window-height="870"
+     inkscape:window-x="1299"
+     inkscape:window-y="557"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata4">
     <rdf:RDF>
@@ -4233,7 +4216,8 @@
      style="display:inline">
     <g
        id="g17625"
-       style="filter:url(#filter8860-6)">
+       style="filter:url(#filter8860-6)"
+       clip-path="url(#clipPath3778)">
       <g
          id="g8624-9"
          transform="translate(-11.853219,-3.5459533)">
@@ -6638,15 +6622,10 @@
         </g>
       </g>
     </g>
-    <path
-       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#0043ff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m -970.46557,1.159548 838.87481,11.428573 5.71429,1000.526279 -828.87481,0 z"
-       id="rect8043"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Layer_mountain" />
+     inkscape:label="Layer work"
+     style="display:inline" />
 </svg>
