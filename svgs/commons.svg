@@ -2618,6 +2618,132 @@
        fx="6.029079"
        fy="305.00415"
        r="79.239754" />
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter20930"
+       inkscape:label="Drop Shadow">
+      <feFlood
+         id="feFlood20932"
+         flood-opacity="0.75171232876712324"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite20934"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur20936"
+         stdDeviation="1"
+         result="blur" />
+      <feOffset
+         id="feOffset20938"
+         dx="1.0380622837370179"
+         dy="0"
+         result="offset" />
+      <feComposite
+         id="feComposite20940"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="452.00239"
+       height="163.99999"
+       patternTransform="translate(-3471.9087,836.96339)"
+       id="pattern3750">
+      <g
+         transform="translate(3471.9087,-504.37496)"
+         id="use3748">
+        <path
+           style="color:#000000;fill:#aa4323;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.09073925;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m -3471.3653,504.9076 146.9095,0 0,78.90927 -146.3667,0 z"
+           id="path5301"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccc" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#path21009"
+           id="use5303"
+           transform="translate(151.06294,7.2188341)"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#use3719"
+           id="use5305"
+           transform="translate(153.06318,7.2188315)"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#path21009"
+           id="use5307"
+           transform="translate(71.063156,91.218822)"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#use3719"
+           id="use5309"
+           transform="translate(73.062896,91.21878)"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#use3721"
+           id="use5311"
+           transform="matrix(0.51351235,0,0,1,-1467.5766,91.218781)"
+           width="744.09448"
+           height="1052.3622" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#path21009"
+           id="use5313"
+           transform="matrix(0.45945842,0,0,1,-1877.1425,91.218782)"
+           width="744.09448"
+           height="1052.3622" />
+      </g>
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="445.00004"
+       height="165"
+       patternTransform="translate(-4385,752.36218)"
+       id="pattern5333">
+      <use
+         height="1052.3622"
+         width="744.09448"
+         id="use5331"
+         xlink:href="#g5322"
+         y="0"
+         x="0"
+         transform="translate(4385,-432.36218)" />
+    </pattern>
+    <pattern
+       patternUnits="userSpaceOnUse"
+       width="449.99997"
+       height="165"
+       patternTransform="translate(-4380,762.36218)"
+       id="pattern5358">
+      <use
+         height="1052.3622"
+         width="744.09448"
+         transform="translate(4385,-432.36218)"
+         id="use5356"
+         xlink:href="#g5322"
+         y="0"
+         x="0" />
+    </pattern>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -2626,17 +2752,24 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.15307715"
-     inkscape:cx="-307.54919"
-     inkscape:cy="-294.5532"
+     inkscape:zoom="0.21648378"
+     inkscape:cx="-1788.9072"
+     inkscape:cy="-369.43928"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
-     showgrid="false"
-     inkscape:window-width="884"
-     inkscape:window-height="1008"
-     inkscape:window-x="1305"
-     inkscape:window-y="477"
-     inkscape:window-maximized="0" />
+     showgrid="true"
+     inkscape:window-width="1858"
+     inkscape:window-height="1058"
+     inkscape:window-x="-8"
+     inkscape:window-y="1192"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3583" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -2843,6 +2976,154 @@
        id="path6834"
        style="fill:url(#radialGradient6844);fill-opacity:1;stroke:#61c7e7;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;display:inline;filter:url(#filter6826)"
        sodipodi:type="spiral" />
+    <g
+       id="g5322">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path21009"
+         d="m -4385,432.36218 145,0 0,80 -144.4643,0 z"
+         style="color:#000000;fill:#aa4323;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.09073925;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         transform="translate(150,2.6171874e-6)"
+         id="use3719"
+         xlink:href="#path21009"
+         y="0"
+         x="0" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         transform="translate(150,0)"
+         id="use3721"
+         xlink:href="#use3719"
+         y="0"
+         x="0" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         transform="translate(70,85.000003)"
+         id="use3723"
+         xlink:href="#path21009"
+         y="0"
+         x="0" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         transform="translate(70,85)"
+         id="use3725"
+         xlink:href="#use3719"
+         y="0"
+         x="0" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         transform="matrix(0.54799483,0,0,1,-1775.9004,85)"
+         id="use3727"
+         xlink:href="#use3721"
+         y="0"
+         x="0" />
+      <use
+         height="1052.3622"
+         width="744.09448"
+         transform="matrix(0.45945842,0,0,1,-2370.2748,85.000003)"
+         id="use3729"
+         xlink:href="#path21009"
+         y="0"
+         x="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-4409.0938"
+       y="386.56689"
+       id="text3731"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3733"
+         x="-4409.0938"
+         y="386.56689">Bricks (X=0, Y=0 is the original)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-2612.2048"
+       y="821.39801"
+       id="text3735"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3737"
+         x="-2612.2048"
+         y="821.39801"> </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-4300.5063"
+       y="737.5943"
+       id="text5241"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5243"
+         x="-4300.5063"
+         y="737.5943">Bricks as pattern</tspan></text>
+    <rect
+       style="stroke:none;fill:url(#pattern5358)"
+       width="449.99997"
+       height="165"
+       x="-4380"
+       y="762.36218"
+       id="rect5361" />
+    <g
+       id="g5383"
+       transform="translate(50,0)"
+       style="stroke:none;fill:none">
+      <use
+         height="1052.3622"
+         width="744.09448"
+         transform="translate(655.00003,2.6171874e-6)"
+         id="use5379"
+         xlink:href="#g5322"
+         y="0"
+         x="0"
+         style="stroke:none;fill:none" />
+      <rect
+         y="432.36218"
+         x="-3730"
+         height="170"
+         width="450"
+         id="rect5381"
+         style="color:#000000;fill:none;stroke:none;stroke-width:0.15000000999999999;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5387"
+       y="404.41296"
+       x="-3685.7422"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="404.41296"
+         x="-3685.7422"
+         id="tspan5389"
+         sodipodi:role="line">Bricks with space around it</tspan></text>
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g5383"
+       id="use5391"
+       transform="translate(-10,340)"
+       width="744.09448"
+       height="1052.3622" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="-3549.6484"
+       y="724.41296"
+       id="text5393"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5395"
+         x="-3549.6484"
+         y="724.41296">As pattern</tspan></text>
   </g>
   <g
      transform="matrix(0.1998092,0,0,0.15885829,28.292343,1767.153)"
